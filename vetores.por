@@ -3,20 +3,30 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro MULTI = 7
-		
-		
-		escreva("\t\t\t\t** TABUADA DO 3 **\n\n")
-		
-	para(inteiro multi = 0 ; multi <=100  ; multi+= 3){
-		escreva(MULTI, "x",multi,"=", MULTI * multi, "\n")
-		se ((MULTI * multi)%2 == 0){
-			escreva("Este número é par")
-		}
-		
-		
-		escreva("\n\n")
+	real notaAluno[5]
+	inteiro quantidadeDeNotas
+	escreva("Imprima a quantidade de notas: ")
+	leia(quantidadeDeNotas)
+
+	para(inteiro contador = 0; contador < quantidadeDeNotas ; contador++){
+		escreva("Nota do Aluno ", contador+1, ": ")
+		leia(notaAluno[contador])
+		escreva("\n")
 	}
-		
+	para(inteiro contador = 0; contador < quantidadeDeNotas ; contador++){
+		escreva("Nota do Aluno ", contador+1 , ":", notaAluno[contador], "\n")
+	}
 	}
 }
+
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 456; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
