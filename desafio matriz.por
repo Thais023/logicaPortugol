@@ -4,7 +4,7 @@ programa
 	funcao inicio()
 	{	inteiro vog = 0
 		inteiro cons = 0
-		inteiro esp = 0
+	
 		caracter nome [3][7]= {{' ','T','H','A','I','S',' '},
 						   {'R','E','G','I','N','A',' '},
 						   {'M','A','R','T','I','N','S'} }
@@ -16,7 +16,7 @@ programa
 				
 			}
 			senao se(nome[li][col] == ' '){
-				esp++
+			
 				
 			}
 			senao{
@@ -30,7 +30,7 @@ programa
 	}
 	escreva("O numero de vogais é : ",vog,"\n")
 	escreva("O numero de consoantes é :",cons, "\n")
-	escreva("O numero de espaços é :",esp)
+	
 	
 }
 }
@@ -39,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 695; 
+ * @POSICAO-CURSOR = 677; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
